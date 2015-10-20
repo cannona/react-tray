@@ -34,8 +34,7 @@ var App = React.createClass({
       <div>
         <ul role="menu" className="navigation">
           <li role="menuitem">
-            <a tabIndex={0}
-                role="button"
+            <a role="button"
                 aria-haspopup={true}
                 onClick={this.handleNavClick}>Menu</a>
           </li>
